@@ -1,2 +1,2 @@
-# Credipop-case-study
-final output of web  coding
+# Credipop-2
+we clear all the confusions spreads online 

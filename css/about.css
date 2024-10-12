@@ -1,0 +1,345 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* font-size */
+.ab-fs-24{font-size: 24px}
+.ab-fs-32{font-size: 32px}
+.ab-fs-40{font-size: 40px}
+.ab-fs-56{font-size: 56px}
+.ab-fs-60{font-size: 60px}
+/* font-weight */
+.ab-fw-400{font-weight: 400;}
+.ab-fw-500{font-weight: 500;}
+.ab-fw-600{font-weight: 600;}
+
+/* about-banner-one */
+.main-body{
+    background-color: #F2EEF3;
+}
+.main-body .head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-body .head .about-banner-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 604px;
+    /* width: 1440px; */
+    /* background-color: white; */
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.main-body .head .about-banner-one .wrapper{
+    display: flex;
+    gap: 40px;
+    justify-content:center;
+    align-items: center;
+}
+.main-body .head .about-banner-one .about-bg{
+    width: 65%;
+    height: 100%;
+    position: absolute;
+    top: -13%;
+    left: -10%;
+    /* z-index: -1; */
+}
+.main-body .head .about-banner-one .about-bg img{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+.main-body .head .about-banner-one .wrapper .about-image {
+    width: 40%;
+    height: 100%;
+    z-index: 1;
+}
+.main-body .head .about-banner-one .wrapper .about-image img{
+    width: 100%;
+    height: 100%;
+}
+.main-body .head .about-banner-one .wrapper .about-content {
+    width: 60%;
+}
+.main-body .head .about-banner-one .wrapper .about-content .about-content-one{
+    display: flex;
+    flex-direction: column;
+    /* background-color:yellow; */
+    gap: 24px;
+    margin-bottom: 24px;
+    z-index: 1;
+}
+.main-body .head .about-banner-one .wrapper .about-content .about-content-two{
+    display: flex;
+    gap: 24px;
+}
+.main-body .head .about-banner-one .wrapper .about-content .about-content-two .img-play{
+    width: 30%;
+}
+.main-body .head .about-banner-one .wrapper .about-content .about-content-two .img-play img{
+    width: 100%;
+    height: 100%;
+}
+
+/* about-credipop */
+.main-body .about-credipop{
+    /* background-color: violet;    */
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/BACK.png');
+}
+/* background-color: aqua; */
+.main-body .about-credipop .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.main-body .about-credipop .wrapper .about-one{
+    width: 100%;
+}
+
+.main-body .about-credipop .wrapper .about-para{
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.main-body .about-credipop .wrapper .about-credipop-image{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-body .about-credipop .wrapper .about-credipop-image img{
+width: 100%;
+height: 100%;
+}
+/* our mission */
+.main-body .our-mission{
+    height: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.main-body .our-mission .mission-bg{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+    overflow: hidden;
+    /* z-index: -1; */
+}
+.main-body .our-mission .mission-bg img{
+    object-fit: cover;
+    z-index: -1;
+}
+.main-body .our-mission .wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 100%;   
+}
+
+.main-body .our-mission .wrapper .mission-content{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    z-index: 1;
+}
+
+.main-body .our-mission .wrapper .mission-content p{
+    margin-left: 80px;
+}
+
+.main-body .our-mission .wrapper .mission-image{
+    width: 40%;
+    height:100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-body .our-mission .wrapper .mission-image img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* working */
+.main-body .how-works{
+    /* height: 1540px; */
+    background-color: aquamarine;
+    background-image: url('../images/back-how.svg');
+    /* background-repeat: no-repeat; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-body .how-works .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-body .how-works .wrapper .how-head{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 80px 0px 80px 0px;
+}
+.main-body .how-works .wrapper .how-head h1,.main-body .how-works .wrapper .how-head p{
+    text-align: center;
+}
+.main-body .how-works .wrapper .how-one {
+    height: 538px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+}
+.how-rev{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.main-body .how-works .wrapper .how-one .how-para{
+    width: 35%;
+    height: 20%;
+    /* height: 200px; */
+    background-color: #F2EEF3;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 44px 28px;
+}
+.main-body .how-works .wrapper .how-one .how-para p{
+    text-align: start;
+}
+.main-body .how-works .wrapper .how-one  .number{
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    background-color: #F2EEF3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.main-body .how-works .wrapper .how-one .how-image{
+    width: 30%;
+    height: 100%;
+}
+.main-body .how-works .wrapper .how-one .how-image img{
+    /* object-fit: cover;
+    object-position: center; */
+    width: 100%;
+    height: 100%;
+}
+
+/* media query 1220px  */
+@media only screen and (max-width: 1220px){
+    
+    .main-body .our-mission .wrapper .mission-image{
+        width: 40%;
+        z-index: 1;
+        overflow: hidden;
+    }
+}
+@media only screen and (max-width: 1220px){
+    .main-body .our-mission {
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 770px){
+    .fs-24 {
+        font-size: 16px;
+    }
+    .main-body .head .about-banner-one {
+        height: 550px;
+    }
+    .main-body .about-credipop {
+        height: 700px;
+    }
+    .main-body .our-mission {
+        height: 300px;
+    }
+    .main-body .how-works .wrapper .how-one {
+        height: 250px;
+    }
+    .main-body .how-works .wrapper .how-one .how-para {
+        width: 35%;
+        height: 30%;
+    }
+}
+@media only screen and (max-width: 640px){
+    .main-body .head .about-banner-one .about-bg  {
+        top: -17%;
+    }
+    .main-body .how-works {
+        display: none;
+    }
+}
+@media only screen and (max-width: 640px){
+    .main-body .head .about-banner-one .about-bg{
+        top: -30%;
+    }
+    .main-body .head .about-banner-one .wrapper .about-content .about-content-one {
+        gap: 16px;
+}
+.main-body .about-credipop .wrapper .about-para {
+    margin-left: 20px;
+}
+.main-body .our-mission .wrapper .mission-content p {
+    margin-left: 20px;
+}
+}
+@media only screen and (max-width: 480px) {
+    .main-body .head .about-banner-one {
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .main-body .our-mission .wrapper {
+        width: 100%;
+    }
+    .main-body .our-mission .wrapper .mission-content {
+        width: 90%;
+    }
+
+    .main-body.our-mission .wrapper .mission-content{
+        width: 100%;
+    }
+    .main-body .our-mission .wrapper .mission-image{
+        display: none;
+    }
+}
+

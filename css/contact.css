@@ -1,0 +1,343 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.co-fs-24{font-size: 24px}
+.co-fs-32{font-size: 32px}
+.co-fs-40{font-size: 40px}
+.co-fs-56{font-size: 56px}
+.co-fs-60{font-size: 60px}
+.co-fs-150{font-size: 150px}
+/* font-weight */
+.co-fw-400{font-weight: 400;}
+.co-fw-500{font-weight: 500;}
+.co-fw-600{font-weight: 600;}
+.placeholder-cl{
+    color: #787777;
+}
+.fade-color{
+    color: rgb(71,71,71,0.7);
+}
+input:focus {
+    background-color: #EE609C;
+  }
+input{
+    background-color: white;
+    border:none;
+    border-bottom: 2PX black solid;
+  }
+
+/* contact-banner */
+
+.main-body .head .contact-banner-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-body .head .contact-banner-one .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0px;
+}
+.main-body .head .contact-banner-one .wrapper .contact-content{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.main-body .head .contact-banner-one .wrapper .contact-banner-image{
+    width: 40%;
+    height: 90%;
+}
+.main-body .head .contact-banner-one .wrapper .contact-banner-image img{
+   width: 100%;
+   height: 100%;
+}
+/* contact-empty banner */
+.main-body .credipop-empty {
+    width: 100%;
+    height: 355px;
+    background-image: linear-gradient(#B866D7,#EE609C);
+    display: flex;
+    /* display: none; */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* background-color: aquamarine; */
+}
+.main-body .credipop-empty .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-body .credipop-empty .wrapper .contact-actions{
+    width: 50%;
+    height: 90%;
+    background-color: black;
+}
+.main-body .credipop-empty .wrapper .contact-actions .contact-form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: start;
+    /* background-color: black; */
+
+}
+ .main-body .credipop-empty .wrapper .contact-actions{
+     width: 28%;
+     height: 400px;
+     background-color: white;
+     padding: 20px;
+     box-shadow: 5px 5px 17px black;
+     border-radius: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: absolute;
+     top: 40%;
+     left: 63%;
+    }
+.main-body .credipop-empty .wrapper .contact-actions .contact-form .action-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* width: 100%; */
+}
+.main-body .credipop-empty .wrapper .contact-actions .contact-form .action-one .action-name{
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    /* justify-content:space-between; */
+    align-items: start;
+}
+.main-body .credipop-empty .wrapper .contact-actions .contact-form .action-one .action-name input {
+    width: 90%;
+    height: 40px;
+}
+.main-body .credipop-empty .wrapper .contact-actions .contact-form .action-one .action-name .text-feild {
+    width: 170%;
+    height: 100px;
+}
+
+/*we are here for you   */
+
+
+/* loaction */
+ .main-body .about-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    margin-top: 40px;
+}
+.about-container .wrapper{
+    width: 88.8%;
+    /* background-color: rgb(105, 207, 22); */
+    display: flex;
+    flex-direction: column;
+
+    /* margin-left: 80px; */
+}
+.about-container .wrapper .actions{
+    display: flex;
+    gap: 10px;
+}
+.about-container .action-one{
+    height: 400px;
+    width: 50%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 24px;
+    padding: 60px 0px;
+}
+.about-container .action-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.about-container .action-one .one{
+    height: 30%;
+    width: 90%;
+    /* background-color: purple; */
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 30px;
+    padding: 0px 10px;
+    &:hover{
+        background-color: #e3c5ee;
+        box-shadow: 5px 5px 40px ;
+    }
+}
+.about-container .action-one .one .one-icon{
+    height: 75px;
+    width: 75px;
+    background-color:#8C06CC;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}    
+.about-container .action-one .one .one-content{
+    height: 85%;
+    width: 75%;
+    /* background-color:rgb(241, 241, 241) ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+@media only screen and (max-width: 1270px){
+    .co-fs-150{
+        font-size: 120px;
+    }
+    .main-body .credipop-empty .wrapper .contact-actions {
+        height: 450px;
+    }
+}
+@media only screen and (max-width: 1270px){
+    .main-body .credipop-empty .wrapper .contact-actions .contact-form .action-one .action-name .text-feild {
+        width: 150%;
+    }
+    .main-body .credipop-empty .wrapper .contact-actions {
+        top: 10%;
+        width: 30%;
+}
+}
+@media only screen and (max-width: 880px) {
+    .co-fs-150 {
+        font-size: 90px;
+    }
+    .main-body .credipop-empty .wrapper .contact-actions {
+        width: 33%;
+        left: 58%;
+        height: 380px;
+    }
+}
+
+@media only screen and (max-width: 852px) {
+    .main-body .credipop-empty .wrapper .contact-actions {
+        height: 420px;
+    }
+    
+}
+@media only screen and (max-width: 770px) {
+    .co-fs-150{
+        font-size: 80px;
+    }
+    .fs-40 {
+        font-size: 24px;
+    }
+    .main-body .credipop-empty {
+        width: 100%;
+        height: 250px;
+    }
+    .main-body .credipop-empty .wrapper .contact-actions {
+        height: 380px;
+
+    }
+    .main-body .credipop-empty .wrapper .contact-actions .contact-form .action-one .action-name .text-feild {
+        width: 130%;
+    }
+    .main-body .head {
+        width: 100%;
+        height: 90vh;
+    }
+}
+@media only screen and (max-width: 659px) {
+.co-fs-150 {
+    font-size: 75px;
+}
+.about-container .action-one .one .one-icon{
+    background-color: transparent;
+}
+}
+
+@media only screen and (max-width: 650px) {
+    .main-body .credipop-empty .wrapper .contact-actions .contact-form .action-one .action-name .text-feild {
+        height: 50px;
+    }
+    .about-container .action-one .one .one-icon {
+        height: 50px;
+        width: 50px;
+    }
+    .about-container .action-one .one .one-icon i{
+        color: #8C06CC;
+        font-size:40px ;
+    }
+
+}
+@media only screen and (max-width: 638px) {
+    .fs-40 {
+        font-size: 22px;
+    }
+    .main-body .credipop-empty .wrapper .contact-actions {
+        top: 10%;
+        height: 340px;
+
+    }  
+}
+@media only screen and (max-width: 615px) {
+.co-fs-150 {
+        font-size: 70px;
+    }
+}
+@media only screen and (max-width: 585px) {
+    .co-fs-150 {
+        font-size: 60px;
+    }
+    
+    .fs-40 {
+        font-size: 18px;
+    }
+    .main-body .credipop-empty .wrapper .contact-actions .contact-form .action-one .action-name .text-feild {
+        width: 110%;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .fs-20 {
+        font-size: 12px;
+    }
+    .fs-24 {
+        font-size: 16px;
+    }
+
+}
+@media only screen and (max-width: 520px) {
+    .co-fs-24 {font-size: 20px;}
+    
+    .co-fs-150 {font-size: 60px;}
+}
+@media only screen and (max-width: 470px) {
+    .co-fs-150 {
+        font-size: 40px;
+    }
+    .fs-56 {
+        font-size: 30px;
+    }
+    .main-body .credipop-empty .wrapper .contact-actions {
+        width: 45%;
+        left: 45%;
+    }
+    .about-container .action-one .one {
+        gap: 20px;
+    }
+}
